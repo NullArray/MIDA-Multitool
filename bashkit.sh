@@ -47,7 +47,7 @@ function init_enum()
     if [[ $choice == 'n' ]]; then
 		echo "Aborted"
 		main
-	fi
+    fi
 
 	printf "\n\nPlease provide a path to which the output will be saved. I.e /tmp/output.txt\n"
 	read -p 'Path to outfile : ' outfile
@@ -158,7 +158,7 @@ keywords in order to find cleartext passswords and usernames. Currently files en
 '.php', '.sql' and '.txt' will be searched. Results will be saved to a textfile\n\n"
 	
 	read -p 'Continue? Y/n : ' choice
-    if [[ $choice == 'y' ]]; then
+    	if [[ $choice == 'y' ]]; then
 		reap -p 'Path to outfile: ' cred_out
 		
 		printf "\nPHP Files\n" | tee -a $cred_out
