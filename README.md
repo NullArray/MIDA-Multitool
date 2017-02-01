@@ -1,7 +1,7 @@
 # Bash Kit - Multitool
 Bash script purposed for system enumeration, vulnerability identification and privilege escalation.
 
-Bash Kit Multitool draws functionality from several of my preious scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in many regards RootHelpers successor. 
+Bash Kit Multitool draws functionality from several of my previous scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in many regards RootHelpers successor. 
 
 Besides functionality from these two previous scripts it incorporates some of it's own and as such aims to be a comprehensive assistant for operations and utilities related to system enumeration, vulnerability identification,
 exploitation and privilege escalation. 
