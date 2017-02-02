@@ -241,7 +241,7 @@ Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 		esac
 	done
 	
-	printf "\n\nIn case external utilities were downloaded would like Bash Kit to automatically unzip them?\n\n"
+	printf "\n\nIn case external utilities were downloaded would you like Bash Kit to automatically unzip them?\n\n"
 	read -p '[Y]es/[N]o: ' choice
 	
 	if [[ $choice == 'y' ]]; then
