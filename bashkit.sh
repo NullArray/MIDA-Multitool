@@ -233,6 +233,7 @@ Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 			"All")
 				wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip
 				wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip
+				wget -O /tmp/LUNAR.zip https://github.com/lateralblast/lunar/archive/master.zip
 				wget -O /tmp/PyCat.zip https://github.com/NullArray/PyCat/archive/master.zip
 				wget -O /tmp/ExploitSuggest.py http://www.securitysift.com/download/linuxprivchecker.py
 				wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip
