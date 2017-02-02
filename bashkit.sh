@@ -211,7 +211,7 @@ Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 				wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip
 				;;
 			"LUNAR - Unix security auditing") 
-				printf "\n\n
+				printf "\n\n"				
 				wget -O /tmp/LUNAR.zip https://github.com/lateralblast/lunar/archive/master.zip
 				;;
 			"PyCat - Python network tool")
