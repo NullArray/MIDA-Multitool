@@ -198,7 +198,7 @@ function ext_util()
 Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 	
 	PS3='Please enter your choice: '
-	options=("LinEnum - System enumeration" "Firmwalker - Advanced enumeration" "PyCat - Python network tool" "Python exploit suggester" "Perl exploit suggester" "Priv-Esc checker" "All" "Done")
+	options=("LinEnum - System enumeration" "Firmwalker - Advanced enumeration" "LUNAR - Unix security auditing" "PyCat - Python network tool" "Python exploit suggester" "Perl exploit suggester" "Priv-Esc checker" "All" "Done")
 	select opt in "${options[@]}"
 	do
 		case $opt in
@@ -209,6 +209,10 @@ Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 			"Firmwalker - Advanced enumeration")
 				printf "\n\n"
 				wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip
+				;;
+			"LUNAR - Unix security auditing") 
+				printf "\n\n
+				wget -O /tmp/LUNAR.zip https://github.com/lateralblast/lunar/archive/master.zip
 				;;
 			"PyCat - Python network tool")
 				printf "\n\n"
