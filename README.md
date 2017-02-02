@@ -17,3 +17,14 @@ The 'Usage' option prints this informational message. The option 'System Enumera
 useful utilities such as telnet, netcat, tcpdump etc. 'External Utilities' opens a menu which lets you download external utilities that may prove to be helpful with further enumeration, vulnerability identification and privilege escalation.
 
 Finally the option 'Cleartext Credentials' searches for text and web application files that contain certain keywords in order to find potential cleartext passwords. 
+
+# Scripts available for download with Bash Kit
+
+[LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
+[Firmwalker](https://github.com/craigz28/firmwalker) by [Craigz28](https://github.com/craigz28)
+[LUNAR](https://github.com/lateralblast/lunar) by [Lateralblast](https://github.com/lateralblast)
+[PyCat](https://github.com/NullArray/PyCat) by [me](https://github.com/NullArray)
+[Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
+[Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) by [PenturaLabs](https://github.com/PenturaLabs)
+[Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
+
