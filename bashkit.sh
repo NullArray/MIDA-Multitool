@@ -86,7 +86,8 @@ function init_enum()
 	arp -e | tee -a $outfile 1>&2
 	printf "\n\n" | tee -a $outfile
 	netstat -atp | tee -a $outfile 1>&2
-	nodes=&(lsof -i) && printf "\nListening nodes: $nodes\n" | tee -a $outfile
+	printf "\nListening nodes | tee -a $outfile
+	lsof -i | tee -a $outfile
 	printf "\n\n" | tee -a $outfile 
 	iptables -L | tee -a $outfile 1>&2
 	sleep 0.5 && clear 2>/dev/null
