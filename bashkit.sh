@@ -71,7 +71,9 @@ function init_enum()
 	sleep 0.5 && clear 2>/dev/null
 		
 	printf "\n\nOS details and mounted disks\n\n" | tee -a $outfile
-		
+	
+	cat /etc/hostname | tee -a $outfile
+	printf "\n\n" | tee -a $outfile
 	uname -a | tee -a $outfile 1>&2
 	printf "\n\n" | tee -a $outfile
 	dpkg -l linux-image-\* | grep ^ii | tee -a $outfile 1>&2
@@ -86,6 +88,8 @@ function init_enum()
 	arp -e | tee -a $outfile 1>&2
 	printf "\n\n" | tee -a $outfile
 	netstat -atp | tee -a $outfile 1>&2
+	printf "\n\n" | tee -a $outfile 1>&2
+        cat /etc/hosts | tee -a $outfile 1>&2
 	printf "\nListening nodes | tee -a $outfile
 	lsof -i | tee -a $outfile
 	printf "\n\n" | tee -a $outfile 
