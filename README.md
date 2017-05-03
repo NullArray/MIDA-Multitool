@@ -1,7 +1,7 @@
-# Bash Kit - Multitool
+# MIDA - Multitool
 Bash script purposed for system enumeration, vulnerability identification and privilege escalation.
 
-Bash Kit Multitool draws functionality from several of my previous scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in many regards RootHelpers successor. 
+MIDA Multitool draws functionality from several of my previous scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in many regards RootHelpers successor. 
 
 Besides functionality from these two previous scripts it incorporates some of it's own and as such aims to be a comprehensive assistant for operations and utilities related to system enumeration, vulnerability identification,
 exploitation and privilege escalation. 
@@ -9,7 +9,7 @@ exploitation and privilege escalation.
 
 ## Usage
 
-After a system has been succesfully compromised Bash Kit should be downloaded to the host in question either with `git` or `wget`, after it has been unpacked/cloned the shellscript needs to be made executable with `chmod +x bashkit.sh`
+After a system has been succesfully compromised MIDA should be downloaded to the host in question either with `git` or `wget`, after it has been unpacked/cloned the shellscript needs to be made executable with `chmod +x bashkit.sh`
 
 Upon doing so it can be run on the target host. The options available to the user are below.
 
