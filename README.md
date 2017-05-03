@@ -18,7 +18,7 @@ useful utilities such as telnet, netcat, tcpdump etc. 'External Utilities' opens
 
 Finally the option 'Cleartext Credentials' searches for text and web application files that contain certain keywords in order to find potential cleartext passwords. 
 
-### Scripts available for download with Bash Kit
+### Scripts available for download with MIDA
 
 [LinEnum](https://github.com/rebootuser/LinEnum) by [RebootUser](https://github.com/rebootuser)
 
