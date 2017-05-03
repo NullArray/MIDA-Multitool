@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# For now we'll keep the old ASCII art
+
 function usage()
 {	clear 2>/dev/null
 	echo " _____         _    _____ _ _   "   
