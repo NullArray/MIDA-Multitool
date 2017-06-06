@@ -9,7 +9,7 @@ exploitation and privilege escalation.
 
 ## Usage
 
-After a system has been succesfully compromised MIDA should be downloaded to the host in question either with `git` or `wget`, after it has been unpacked/cloned the shellscript needs to be made executable with `chmod +x bashkit.sh`
+After a system has been succesfully compromised MIDA should be downloaded to the host in question either with `git` or `wget`, after it has been unpacked/cloned the shellscript needs to be made executable with `chmod +x mida.sh`
 
 Upon doing so it can be run on the target host. The options available to the user are below.
 
