@@ -26,8 +26,6 @@ Finally the option 'Cleartext Credentials' searches for text and web application
 
 [LUNAR](https://github.com/lateralblast/lunar) by [Lateralblast](https://github.com/lateralblast)
 
-[PyCat](https://github.com/NullArray/PyCat) by [Me](https://github.com/NullArray)
-
 [Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
 
 [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) by [PenturaLabs](https://github.com/PenturaLabs)
