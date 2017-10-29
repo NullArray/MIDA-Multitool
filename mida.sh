@@ -1,13 +1,16 @@
 #!/bin/bash
 
-function usage()
-{	clear 2>/dev/null
+function logo()
+{ clear 2>/dev/null
   echo " _____ _____ ____  _____ "
   echo "|     |     |    \|  _  |"
   echo "| | | |-   -|  |  |     |"
   echo "|_|_|_|_____|____/|__|__|"
   printf "\nMIDA - Multitool\n"
+}
 
+function usage()
+{	logo
   printf "\n MIDA - Multitool aims to be a comprehensive assistant for operations
 and utilities related to system enumeration, vulnerability identification,
 exploitation and privilege escalation.
@@ -28,12 +31,7 @@ files that contain certain keywords in order to find potential cleartext passwor
 }
 
 function init_enum()
-{	clear 2>/dev/null
-  echo " _____ _____ ____  _____ "
-  echo "|     |     |    \|  _  |"
-  echo "| | | |-   -|  |  |     |"
-  echo "|_|_|_|_____|____/|__|__|"
-  printf "\nMIDA - Multitool\n"
+{	logo
   printf "\n\nThis module enumerates system information and appends it to a textfile.\n"
   printf "\nThese items will be enumerated:
 
@@ -113,12 +111,7 @@ function init_enum()
 
 
 function common_util()
-{	clear 2>/dev/null
-  echo " _____ _____ ____  _____ "
-  echo "|     |     |    \|  _  |"
-  echo "| | | |-   -|  |  |     |"
-  echo "|_|_|_|_____|____/|__|__|"
-  printf "\nMIDA - Multitool\n"
+{	logo
   printf "\n\nListing common, available utilities\n\n"
 
   which curl 2>/dev/null
@@ -147,12 +140,7 @@ function common_util()
 }
 
 function cleartext()
-{	clear 2>/dev/null
-  echo " _____ _____ ____  _____ "
-  echo "|     |     |    \|  _  |"
-  echo "| | | |-   -|  |  |     |"
-  echo "|_|_|_|_____|____/|__|__|"
-  printf "\nMIDA - Multitool\n"
+{	logo
   printf "\n\nThis module looks for web application and text files containing certain
 keywords in order to find cleartext passswords and usernames. Currently files ending in
   '.php', '.sql' and '.txt' will be searched. Results will be saved to a textfile\n\n"
@@ -188,12 +176,7 @@ keywords in order to find cleartext passswords and usernames. Currently files en
 
 
 function ext_util()
-{	clear 2>/dev/null
-  echo " _____ _____ ____  _____ "
-  echo "|     |     |    \|  _  |"
-  echo "| | | |-   -|  |  |     |"
-  echo "|_|_|_|_____|____/|__|__|"
-  printf "\nMIDA - Multitool\n\n"
+{	logo
   printf "\n\nThis module provides a number of external utilities to download.
   Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 
@@ -279,11 +262,7 @@ function ext_util()
 
 
 function main()
-{	echo " _____ _____ ____  _____ "
-  echo "|     |     |    \|  _  |"
-  echo "| | | |-   -|  |  |     |"
-  echo "|_|_|_|_____|____/|__|__|"
-  printf "\nMIDA - Multitool\n\n"
+{	logo
 
   PS3='Please enter your choice: '
   options=("Usage" "System Enumeration" "Common Utilities" "External Utilities" "Cleartext Credentials" "Quit")
