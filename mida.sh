@@ -203,7 +203,7 @@ function ext_util()
         ;;
       "Perl exploit suggester")
         printf "\n\n"
-        wget -O /tmp/ExploitSuggest_perl.zip https://github.com/PenturaLabs/Linux_Exploit_Suggester/archive/master.zip
+        wget -O /tmp/ExploitSuggest_perl.zip https://github.com/jondonas/linux-exploit-suggester-2/archive/master.zip
         ;;
       "Priv-Esc checker")
         printf "\n\n"
