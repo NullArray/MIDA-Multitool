@@ -28,7 +28,7 @@ Finally the option 'Cleartext Credentials' searches for text and web application
 
 [Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
 
-[Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester) by [PenturaLabs](https://github.com/PenturaLabs)
+[Linux Exploit Suggester](https://github.com/jondonas/linux-exploit-suggester-2) by [Jondonas](https://github.com/jondonas)
 
 [Unix Priv-Esc Check](https://github.com/pentestmonkey/unix-privesc-check) by [Pentestmonkey](https://github.com/pentestmonkey)
 
