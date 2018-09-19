@@ -24,6 +24,8 @@ Finally the option 'Cleartext Credentials' searches for text and web application
 
 [Firmwalker](https://github.com/craigz28/firmwalker) by [Craigz28](https://github.com/craigz28)
 
+[BashArk](https://github.com/TheSecondSun/Bashark) by [TheSecondSun](https://github.com/TheSecondSun)
+
 [LUNAR](https://github.com/lateralblast/lunar) by [Lateralblast](https://github.com/lateralblast)
 
 [Linux Priv Checker](http://www.securitysift.com/download/linuxprivchecker.py) by [SecuritySift](http://www.securitysift.com)
