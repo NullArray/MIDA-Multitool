@@ -181,10 +181,14 @@ function ext_util()
   Choose a utility to start downloading and unpacking it in the /tmp/ directory\n"
 
   PS3='Please enter your choice: '
-  options=("LinEnum - System enumeration" "BashArk - Post-Exploit kit" "Firmwalker - Advanced enumeration" "LUNAR - Unix security auditing" "Python exploit suggester" "Perl exploit suggester" "Priv-Esc checker" "All" "Done")
+  options=("RootHelper - PrivescUtil Downloader" "LinEnum - System enumeration" "BashArk - Post-Exploit kit" "Firmwalker - Advanced enumeration" "LUNAR - Unix security auditing" "Python exploit suggester" "Perl exploit suggester" "Priv-Esc checker" "All" "Done")
   select opt in "${options[@]}"
   do
     case $opt in
+      "RootHelper - PrivescUtil Downloader"
+        printf "\n\n"
+        wget -O /tmp/RootHelper.zip https://github.com/NullArray/RootHelper/archive/master.zip
+        ;;
       "LinEnum - System enumeration")
         printf "\n\n"
         wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip
@@ -214,6 +218,7 @@ function ext_util()
         wget -O /tmp/unixprivesc.zip https://github.com/pentestmonkey/unix-privesc-check/archive/1_x.zip
         ;;
       "All")
+        wget -O /tmp/RootHelper.zip https://github.com/NullArray/RootHelper/archive/master.zip
         wget -O /tmp/LinEnum.zip https://github.com/rebootuser/LinEnum/archive/master.zip
         wget -O /tmp/firmwalker.zip https://github.com/craigz28/firmwalker/archive/master.zip
         wget -O /tmp/Bashark.zip https://github.com/TheSecondSun/Bashark/archive/master.zip
