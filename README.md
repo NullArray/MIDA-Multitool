@@ -1,7 +1,7 @@
 # MIDA - Multitool
 Bash script purposed for system enumeration, vulnerability identification and privilege escalation.
 
-MIDA Multitool draws functionality from several of my previous scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in many regards RootHelpers successor. 
+MIDA Multitool draws functionality from several of my previous scripts namely [SysEnum](https://github.com/NullArray/SysEnum) and [RootHelper](https://github.com/NullArray/RootHelper) and is in some regards RootHelpers successor, or sister script at the very least. 
 
 Besides functionality from these two previous scripts it incorporates some of it's own and as such aims to be a comprehensive assistant for operations and utilities related to system enumeration, vulnerability identification,
 exploitation and privilege escalation. 
