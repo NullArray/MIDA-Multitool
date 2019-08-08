@@ -185,7 +185,7 @@ function ext_util()
   select opt in "${options[@]}"
   do
     case $opt in
-      "RootHelper - PrivescUtil Downloader"
+      "RootHelper - PrivescUtil Downloader")
         printf "\n\n"
         wget -O /tmp/RootHelper.zip https://github.com/NullArray/RootHelper/archive/master.zip
         ;;
@@ -295,8 +295,7 @@ function main()
         cleartext
         ;;
       "Quit")
-        break
-        exit 1
+        exit 0
         ;;
       *) echo invalid option ;;
     esac
